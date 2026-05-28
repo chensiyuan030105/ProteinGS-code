@@ -1,0 +1,9 @@
+{
+  "protenix": {
+    "model": "protenix",
+    "seeds": [101],
+    "dataset_path": {
+      "dsDNA_Protein": "./evaluation/eval_results_pxmeter/protenix/dsDNA_Protein"
+    }
+  }
+}

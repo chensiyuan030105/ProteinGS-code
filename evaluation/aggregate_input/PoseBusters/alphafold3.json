@@ -1,0 +1,9 @@
+{
+  "alphafold3": {
+    "model": "boltz",
+    "seeds": [101],
+    "dataset_path": {
+      "PoseBusters": "./evaluation/eval_results_pxmeter/alphafold3/PoseBusters"
+    }
+  }
+}

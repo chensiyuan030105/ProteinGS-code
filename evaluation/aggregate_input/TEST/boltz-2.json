@@ -1,0 +1,9 @@
+{
+  "boltz-2": {
+    "model": "boltz",
+    "seeds": [101],
+    "dataset_path": {
+      "TEST": "./evaluation/eval_results_pxmeter/boltz-2/TEST"
+    }
+  }
+}

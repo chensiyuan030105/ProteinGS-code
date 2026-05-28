@@ -1,0 +1,9 @@
+{
+  "boltz-1x": {
+    "model": "boltz",
+    "seeds": [101],
+    "dataset_path": {
+      "dsDNA_Protein": "./evaluation/eval_results_pxmeter/boltz-1x/dsDNA_Protein"
+    }
+  }
+}

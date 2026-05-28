@@ -1,0 +1,1 @@
+python inference.py --config ./config/boltz-gs-AAV.yaml

@@ -1,0 +1,25 @@
+model: boltz1
+
+# Logical dataset name
+dataset: dsDNA_Protein
+
+# Directories are templates that depend on `dataset`
+input_dir: "/home/mhg/ForSiyuan/proteinstudio/dataset/input/boltz/dsDNA_Protein"
+output_dir: "/home/mhg/ForSiyuan/proteinstudio/output/boltz-1x/dsDNA_Protein_7rce"
+
+diffusion_samples: 20
+seeds: [101]
+
+gpus: [1]
+num_gpus: 1
+
+use_potentials: True
+cache: false
+checkpoint: false
+
+gamma_0: 0.605
+noise_scale: 0.901
+step_scale: 1.638
+sampling_steps: 200
+
+pdb_id_list: "/home/mhg/ForSiyuan/proteinstudio/dataset/supported_data/dsDNA_Protein_7rce.txt"

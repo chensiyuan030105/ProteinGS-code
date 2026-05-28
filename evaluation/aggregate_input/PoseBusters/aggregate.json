@@ -1,0 +1,51 @@
+{
+    "boltz-1": {
+      "model": "boltz",
+      "seeds": [101],
+      "dataset_path": {
+        "PoseBusters": "./evaluation/eval_results_pxmeter/boltz-1/PoseBusters"
+      }
+    },
+    "protenix": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "PoseBusters": "./evaluation/eval_results_pxmeter/protenix/PoseBusters"
+        }
+      },
+    "boltz-1x": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+            "PoseBusters": "./evaluation/eval_results_pxmeter/boltz-1x/PoseBusters"
+        }
+    },
+    "boltz-2": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+          "PoseBusters": "./evaluation/eval_results_pxmeter/boltz-2/PoseBusters"
+        }
+      },
+      "protenix-mini-10step": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "PoseBusters": "./evaluation/eval_results_pxmeter/protenix-mini-10step/PoseBusters"
+        }
+      },
+      "protenix-mini-5step": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "PoseBusters": "./evaluation/eval_results_pxmeter/protenix-mini-5step/PoseBusters"
+        }
+      },
+    "boltz-gs": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+        "PoseBusters": "./evaluation/eval_results_pxmeter/boltz-gs/PoseBusters"
+        }
+    }
+  }

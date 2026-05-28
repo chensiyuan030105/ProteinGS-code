@@ -1,0 +1,9 @@
+{
+  "protenix-mini-10step": {
+    "model": "protenix",
+    "seeds": [101],
+    "dataset_path": {
+      "AF3_AB": "./evaluation/eval_results_pxmeter/protenix-mini-10step/AF3_AB"
+    }
+  }
+}

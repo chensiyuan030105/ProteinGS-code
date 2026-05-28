@@ -1,0 +1,9 @@
+{
+  "boltz-1": {
+    "model": "boltz",
+    "seeds": [101],
+    "dataset_path": {
+      "CASP15": "./evaluation/eval_results_pxmeter/boltz-1/CASP15"
+    }
+  }
+}

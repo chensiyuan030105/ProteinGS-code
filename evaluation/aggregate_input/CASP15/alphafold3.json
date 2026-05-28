@@ -1,0 +1,9 @@
+{
+  "alphafold3": {
+    "model": "boltz",
+    "seeds": [101],
+    "dataset_path": {
+      "CASP15": "./evaluation/eval_results_pxmeter/alphafold3/CASP15"
+    }
+  }
+}

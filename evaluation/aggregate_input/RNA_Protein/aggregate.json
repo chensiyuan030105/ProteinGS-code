@@ -1,0 +1,51 @@
+{
+    "boltz-1": {
+      "model": "boltz",
+      "seeds": [101],
+      "dataset_path": {
+        "RNA_Protein": "./evaluation/eval_results_pxmeter/boltz-1/RNA_Protein"
+      }
+    },
+    "protenix": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "RNA_Protein": "./evaluation/eval_results_pxmeter/protenix/RNA_Protein"
+        }
+      },
+    "boltz-1x": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+            "RNA_Protein": "./evaluation/eval_results_pxmeter/boltz-1x/RNA_Protein"
+        }
+    },
+    "boltz-2": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+          "RNA_Protein": "./evaluation/eval_results_pxmeter/boltz-2/RNA_Protein"
+        }
+      },
+      "protenix-mini-10step": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "RNA_Protein": "./evaluation/eval_results_pxmeter/protenix-mini-10step/RNA_Protein"
+        }
+      },
+      "protenix-mini-5step": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "RNA_Protein": "./evaluation/eval_results_pxmeter/protenix-mini-5step/RNA_Protein"
+        }
+      },
+    "boltz-gs": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+        "RNA_Protein": "./evaluation/eval_results_pxmeter/boltz-gs/RNA_Protein"
+        }
+    }
+  }

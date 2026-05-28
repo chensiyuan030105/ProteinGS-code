@@ -1,0 +1,51 @@
+{
+    "boltz-1": {
+      "model": "boltz",
+      "seeds": [101],
+      "dataset_path": {
+        "CASP15": "./evaluation/eval_results_pxmeter/boltz-1/CASP15"
+      }
+    },
+    "protenix": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "CASP15": "./evaluation/eval_results_pxmeter/protenix/CASP15"
+        }
+      },
+    "boltz-1x": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+            "CASP15": "./evaluation/eval_results_pxmeter/boltz-1x/CASP15"
+        }
+    },
+    "boltz-2": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+          "CASP15": "./evaluation/eval_results_pxmeter/boltz-2/CASP15"
+        }
+      },
+      "protenix-mini-10step": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "CASP15": "./evaluation/eval_results_pxmeter/protenix-mini-10step/CASP15"
+        }
+      },
+      "protenix-mini-5step": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "CASP15": "./evaluation/eval_results_pxmeter/protenix-mini-5step/CASP15"
+        }
+      },
+    "boltz-gs": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+        "CASP15": "./evaluation/eval_results_pxmeter/boltz-gs/CASP15"
+        }
+    }
+  }

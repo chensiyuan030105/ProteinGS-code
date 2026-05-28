@@ -1,0 +1,25 @@
+model: boltz1
+
+# Logical dataset name
+dataset: CASP15
+
+# Directories are templates that depend on `dataset`
+input_dir: "/home/mhg/ForSiyuan/proteinstudio/dataset/input/boltz/CASP15"
+output_dir: "/home/mhg/ForSiyuan/proteinstudio/output/boltz-gs/CASP15_DEBUG"
+
+diffusion_samples: 5
+seeds: [101]
+
+gpus: [2]
+num_gpus: 1
+
+use_potentials: False
+cache: false
+checkpoint: /home/mhg/ForSiyuan/proteinstudio/pretrained_model/last.ckpt
+
+gamma_0: 0.0
+noise_scale: 1.0
+step_scale: 1.0
+sampling_steps: 2
+
+# pdb_id_list: "/home/mhg/ForSiyuan/proteinstudio/dataset/supported_data/CASP15.txt"

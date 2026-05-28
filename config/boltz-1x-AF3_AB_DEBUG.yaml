@@ -1,0 +1,25 @@
+model: boltz1
+
+# Logical dataset name
+dataset: AF3_AB
+
+# Directories are templates that depend on `dataset`
+input_dir: "/home/mhg/ForSiyuan/proteinstudio/dataset/input/boltz/AF3_AB"
+output_dir: "/home/mhg/ForSiyuan/proteinstudio/output/boltz-1x/AF3_AB_DEBUG"
+
+diffusion_samples: 5
+seeds: [101]
+
+gpus: [1]
+num_gpus: 1
+
+use_potentials: True
+cache: false
+checkpoint: false
+
+gamma_0: 0.605
+noise_scale: 0.901
+step_scale: 1.638
+sampling_steps: 200
+
+pdb_id_list: "/home/mhg/ForSiyuan/proteinstudio/evaluation/aggregate_input/AF3_AB/pdb_id_list.txt"

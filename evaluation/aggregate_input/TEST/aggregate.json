@@ -1,0 +1,51 @@
+{
+    "boltz-1": {
+      "model": "boltz",
+      "seeds": [101],
+      "dataset_path": {
+        "TEST": "./evaluation/eval_results_pxmeter/boltz-1/TEST"
+      }
+    },
+    "protenix": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "TEST": "./evaluation/eval_results_pxmeter/protenix/TEST"
+        }
+      },
+    "boltz-1x": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+            "TEST": "./evaluation/eval_results_pxmeter/boltz-1x/TEST"
+        }
+    },
+    "boltz-2": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+          "TEST": "./evaluation/eval_results_pxmeter/boltz-2/TEST"
+        }
+      },
+      "protenix-mini-10step": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "TEST": "./evaluation/eval_results_pxmeter/protenix-mini-10step/TEST"
+        }
+      },
+      "protenix-mini-5step": {
+        "model": "protenix",
+        "seeds": [101],
+        "dataset_path": {
+          "TEST": "./evaluation/eval_results_pxmeter/protenix-mini-5step/TEST"
+        }
+      },
+    "boltz-gs": {
+        "model": "boltz",
+        "seeds": [101],
+        "dataset_path": {
+        "TEST": "./evaluation/eval_results_pxmeter/boltz-gs/TEST"
+        }
+    }
+  }

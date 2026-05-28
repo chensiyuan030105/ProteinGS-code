@@ -1,0 +1,18 @@
+# Config file for boltz predict
+
+model: boltz2  # The model to use (e.g., boltz-2)
+input_dir: "./dataset/inputs/boltz-2/queries"  # Directory containing input files
+output_dir: "./output/boltz-2/"  # Directory to store the output
+diffusion_samples: 5  # Number of diffusion samples
+seeds:
+  - 101  # List of random seeds
+gpus:
+  - 2  # List of available GPUs (e.g., [0, 1, 2, ...])
+num_gpus: 1  # Number of GPUs to use
+use_potentials: true  # Whether to use potentials or not
+cache: "./supported_data/mol"  # Path to the cache directory
+checkpoint: false
+gamma_0: 0.8
+noise_scale: 1.003
+step_scale: 1.5
+sampling_steps: 200

@@ -1,0 +1,23 @@
+model: boltz1
+
+# Logical dataset name
+dataset: CASP15
+
+# Directories are templates that depend on `dataset`
+input_dir: "./dataset/input/boltz/CASP15"
+output_dir: "./output/boltz-1/CASP15"
+
+diffusion_samples: 5
+seeds: [101]
+
+gpus: [0, 1, 2]
+num_gpus: 3
+
+use_potentials: false
+cache: false
+checkpoint: false
+
+gamma_0: 0.605
+noise_scale: 0.901
+step_scale: 1.638
+sampling_steps: 200

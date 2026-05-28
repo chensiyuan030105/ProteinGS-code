@@ -1,0 +1,9 @@
+{
+  "boltz-gs": {
+    "model": "boltz",
+    "seeds": [101],
+    "dataset_path": {
+      "AF3_AB": "./evaluation/eval_results_pxmeter/boltz-gs/AF3_AB"
+    }
+  }
+}
