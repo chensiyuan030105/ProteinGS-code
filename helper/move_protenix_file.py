@@ -3,7 +3,7 @@ import os
 
 def move_and_rename():
     # Base directory containing all datasets
-    base_dir = "/home/mhg/ForSiyuan/proteinstudio/output/protenix-mini-10step/dsDNA_Protein"
+    base_dir = "./output/protenix-mini-10step/dsDNA_Protein"
     
     # List the directories (pdb_ids) in the base directory
     pdb_ids = [d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]

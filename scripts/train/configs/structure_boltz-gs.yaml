@@ -15,12 +15,12 @@ wandb:
 
 output: ./training_output/boltz-gs/
 # pretrained: ../../../pretrained_model/boltz1.ckpt
-# pretrained: /home/mhg/Projects/Protein-Collision-Free/boltz/training_output/run-20250909_230524-ge8kuq7m/last.ckpt
-# pretrained: /home/mhg/Projects/Protein-Collision-Free/boltz/training_output/run-20250910_115517-fak6jpd9/last.ckpt
-# pretrained: /home/mhg/Projects/Protein-Collision-Free/boltz/training_output/run-20250910_230245-2ae9dsg7/last.ckpt
-# pretrained: /home/mhg/Projects/Protein-Collision-Free/boltz/training_output/run-20250911_090204-hsrca3vz/last.ckpt
-# pretrained: /home/mhg/Projects/Protein-Collision-Free/boltz/training_output/run-20250911_131043-6cdm3q82/last.ckpt
-# pretrained: /home/mhg/Projects/Protein-Collision-Free/boltz/training_output/run-20250911_223231-xh0n1hdnx/last.ckpt
+# pretrained: ./training_output/run-20250909_230524-ge8kuq7m/last.ckpt
+# pretrained: ./training_output/run-20250910_115517-fak6jpd9/last.ckpt
+# pretrained: ./training_output/run-20250910_230245-2ae9dsg7/last.ckpt
+# pretrained: ./training_output/run-20250911_090204-hsrca3vz/last.ckpt
+# pretrained: ./training_output/run-20250911_131043-6cdm3q82/last.ckpt
+# pretrained: ./training_output/run-20250911_223231-xh0n1hdnx/last.ckpt
 pretrained: ./supported_data/mol/last.ckpt
 # pretrained: null
 resume: null

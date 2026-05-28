@@ -1390,7 +1390,7 @@ def predict(  # noqa: C901, PLR0915, PLR0912
             pairformer_args=asdict(pairformer_args),
             msa_args=asdict(msa_args),
             steering_args=asdict(steering_args),
-            pretrained_path=None, # "/storage/mhg/Protein-Collision-Free/pretrained_model/boltz1.ckpt",
+            pretrained_path=None, # "./pretrained_model/boltz1.ckpt",
             confidence_prediction=True,
             confidence_imitate_trunk=True,
             alpha_pae=1.0

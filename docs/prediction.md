@@ -77,5 +77,5 @@ boltz predict examples/prot.yaml \
   --use_msa_server
 ```
 
-Add `--checkpoint /path/to/checkpoint.ckpt` when using a local ProteinGS
+Add `--checkpoint ./checkpoints/checkpoint.ckpt` when using a local ProteinGS
 checkpoint.

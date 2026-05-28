@@ -434,7 +434,7 @@ parser.add_argument("--output_txt", type=str, required=True, help="path to save 
 args = parser.parse_args()
 # -------------------- args --------------------
 
-cache_dir = Path("/home/mhg/ForSiyuan/proteinstudio/pretrained_model")
+cache_dir = Path("./pretrained_model")
 ccd_path = cache_dir / "ccd.pkl"
 moldir = cache_dir / "mols"
 with ccd_path.open("rb") as file:

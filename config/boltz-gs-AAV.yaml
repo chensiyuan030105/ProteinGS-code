@@ -4,8 +4,8 @@ model: boltz1
 dataset: AAV
 
 # Directories are templates that depend on `dataset`
-input_dir: "/home/mhg/ForSiyuan/proteinstudio/dataset/input/boltz/AAV"
-output_dir: "/home/mhg/ForSiyuan/proteinstudio/output/boltz-gs/AAV"
+input_dir: "./dataset/input/boltz/AAV"
+output_dir: "./output/boltz-gs/AAV"
 
 diffusion_samples: 5
 seeds: [101]
@@ -15,7 +15,7 @@ num_gpus: 1
 
 use_potentials: False
 cache: false
-checkpoint: /home/mhg/ForSiyuan/proteinstudio/pretrained_model/last.ckpt
+checkpoint: ./pretrained_model/last.ckpt
 
 gamma_0: 0.0
 noise_scale: 1.0

@@ -216,23 +216,23 @@ def check_steric_clash(structure, molecules, buffer=0.25):
     return result
 
 
-cache_dir = Path("/data/rbg/users/jwohlwend/boltz-cache")
+cache_dir = Path("./pretrained_model")
 ccd_path = cache_dir / "ccd.pkl"
 moldir = cache_dir / "mols"
 with ccd_path.open("rb") as file:
     ccd = pickle.load(file)
 
 boltz1_dir = Path(
-    "/data/rbg/shared/projects/foldeverything/boltz_results_final/outputs/test/boltz/predictions"
+    "./output/boltz-1/TEST"
 )
 boltz1x_dir = Path(
-    "/data/scratch/getzn/boltz_private/boltz_1x_test_results_final_new/full_predictions"
+    "./output/boltz-1x/TEST"
 )
 chai_dir = Path(
-    "/data/rbg/shared/projects/foldeverything/boltz_results_final/outputs/test/chai"
+    "./output/chai/TEST"
 )
 af3_dir = Path(
-    "/data/rbg/shared/projects/foldeverything/boltz_results_final/outputs/test/af3"
+    "./output/alphafold3/TEST"
 )
 
 boltz1_pdb_ids = set(os.listdir(boltz1_dir))

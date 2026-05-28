@@ -41,7 +41,7 @@ def parse_yaml(
             binder: E
             contacts: [[B, 1], [B, 2]]
     templates:
-        - path: /path/to/template.pdb
+        - path: ./templates/template.pdb
           ids: [A] # optional, specify which chains to template
 
     version: 1

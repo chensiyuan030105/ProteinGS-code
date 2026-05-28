@@ -4,8 +4,8 @@ model: boltz1
 dataset: dsDNA_Protein
 
 # Directories are templates that depend on `dataset`
-input_dir: "/home/mhg/ForSiyuan/proteinstudio/dataset/input/boltz/dsDNA_Protein"
-output_dir: "/home/mhg/ForSiyuan/proteinstudio/output/boltz-gs/dsDNA_Protein_DEBUG"
+input_dir: "./dataset/input/boltz/dsDNA_Protein"
+output_dir: "./output/boltz-gs/dsDNA_Protein_DEBUG"
 
 diffusion_samples: 5
 seeds: [101]
@@ -15,11 +15,11 @@ num_gpus: 1
 
 use_potentials: False
 cache: false
-checkpoint: /home/mhg/ForSiyuan/proteinstudio/pretrained_model/last.ckpt
+checkpoint: ./pretrained_model/last.ckpt
 
 gamma_0: 0.0
 noise_scale: 1.0
 step_scale: 1.0
 sampling_steps: 2
 
-pdb_id_list: "/home/mhg/ForSiyuan/proteinstudio/dataset/supported_data/dsDNA_Protein.txt"
+pdb_id_list: "./dataset/supported_data/dsDNA_Protein.txt"

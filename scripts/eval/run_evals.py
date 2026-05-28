@@ -6,7 +6,6 @@ from pathlib import Path
 from tqdm import tqdm
 
 OST_COMPARE_STRUCTURE = r"""
-#!/bin/bash
 # https://openstructure.org/docs/2.7/actions/#ost-compare-structures
 
 IMAGE_NAME=openstructure-0.2.8
@@ -26,7 +25,6 @@ sudo docker run -u $(id -u):$(id -g) --rm --volume {mount}:{mount} $IMAGE_NAME $
 
 
 OST_COMPARE_LIGAND = r"""
-#!/bin/bash
 # https://openstructure.org/docs/2.7/actions/#ost-compare-structures
 
 IMAGE_NAME=openstructure-0.2.8
@@ -49,7 +47,7 @@ def evaluate_structure(
     reference: Path,
     outdir: str,
     mount: str,
-    executable: str = "/bin/bash",
+    executable: str = "bash",
 ) -> None:
     """Evaluate the structure."""
     # Evaluate polymer metrics
@@ -161,7 +159,7 @@ if __name__ == "__main__":
     parser.add_argument("--format", type=str, default="af3")
     parser.add_argument("--testset", type=str, default="casp")
     parser.add_argument("--mount", type=str)
-    parser.add_argument("--executable", type=str, default="/bin/bash")
+    parser.add_argument("--executable", type=str, default="bash")
     parser.add_argument("--max-workers", type=int, default=32)
     args = parser.parse_args()
     main(args)

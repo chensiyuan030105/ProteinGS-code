@@ -3,7 +3,7 @@ import json
 import re
 
 def fix_aggregate_input_paths(
-    root="/home/mhg/ForSiyuan/proteinstudio/release/evaluation/aggregate_input",
+    root="./release/evaluation/aggregate_input",
     dry_run=False,
 ):
     root = Path(root)

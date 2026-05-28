@@ -1,6 +1,6 @@
 from pathlib import Path
 
-DIR = Path("/home/mhg/ForSiyuan/proteinstudio/evaluation/eval_results/alphafold3/TEST")
+DIR = Path("./evaluation/eval_results/alphafold3/TEST")
 
 for p in DIR.iterdir():
     if not p.is_dir():
